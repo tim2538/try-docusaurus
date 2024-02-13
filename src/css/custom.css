@@ -32,6 +32,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+.searchBarContainer_node_modules-\@easyops-cn-docusaurus-search-local-dist-client-client-theme-SearchBar-SearchBar-module {
+  margin-left: 0 !important;
+}
+
 /*-- Customize Scrollbar --*/
 ::-webkit-scrollbar {
   width: 8px;

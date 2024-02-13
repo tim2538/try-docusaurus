@@ -27,7 +27,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'th']
+    locales: ['en']
   },
 
   presets: [
@@ -38,18 +38,36 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/tim2538/try-docusaurus/blob/main'
+          editUrl: 'https://github.com/tim2538/try-docusaurus/tree/main'
         },
         blog: {
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/tim2538/try-docusaurus/blob/main'
+          editUrl: 'https://github.com/tim2538/try-docusaurus/tree/main'
         },
         theme: {
           customCss: './src/css/custom.css'
         }
       } satisfies Preset.Options
+    ]
+  ],
+
+  themes: [
+    [
+      // @See more details https://github.com/easyops-cn/docusaurus-search-local
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      {
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+      }
     ]
   ],
 
@@ -63,13 +81,16 @@ const config: Config = {
         src: 'img/logo64.png'
       },
       items: [
+        { to: '/services', label: 'Services', position: 'right' },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial'
+          position: 'right',
+          label: 'Docs'
         },
-        { to: '/blog', label: 'Blog', position: 'left' }
+        { to: '/pricing', label: 'Pricing', position: 'right' },
+        { to: '/about', label: 'About us', position: 'right' },
+        { to: '/blog', label: 'Blog', position: 'right' }
       ]
     },
     footer: {
