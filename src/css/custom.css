@@ -15,6 +15,27 @@
   --ifm-color-primary-lighter: #3e8df4;
   --ifm-color-primary-lightest: #64a3f6;
   --ifm-background-color: #f0f2f5;
+  --ifm-color-secondary: #eb0014;
+  --ifm-color-secondary-dark: #d30012;
+  --ifm-color-secondary-darker: #c80011;
+  --ifm-color-secondary-darkest: #a5000e;
+  --ifm-color-secondary-light: #ff0319;
+  --ifm-color-secondary-lighter: #ff0f24;
+  --ifm-color-secondary-lightest: #ff3244;
+  --ifm-color-success: #42b72a;
+  --ifm-color-success-dark: #3ba526;
+  --ifm-color-success-darker: #389c24;
+  --ifm-color-success-darkest: #2e801d;
+  --ifm-color-success-light: #49c92e;
+  --ifm-color-success-lighter: #4dd033;
+  --ifm-color-success-lightest: #65d64e;
+  --ifm-color-danger: #fa3c3c;
+  --ifm-color-danger-dark: #f91e1e;
+  --ifm-color-danger-darker: #f90f0f;
+  --ifm-color-danger-darkest: #d40505;
+  --ifm-color-danger-light: #fb5a5a;
+  --ifm-color-danger-lighter: #fb6969;
+  --ifm-color-danger-lightest: #fc9797;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -29,6 +50,26 @@
   --ifm-color-primary-lighter: #2692ff;
   --ifm-color-primary-lightest: #4da5ff;
   --ifm-background-color: #0d1116;
+  --ifm-color-secondary: #eb0014;
+  --ifm-color-secondary-dark: #d30012;
+  --ifm-color-secondary-darker: #c80011;
+  --ifm-color-secondary-darkest: #a5000e;
+  --ifm-color-secondary-light: #ff0319;
+  --ifm-color-secondary-lighter: #ff0f24;
+  --ifm-color-secondary-lightest: #ff3244;
+  --ifm-color-success-dark: #3ba526;
+  --ifm-color-success-darker: #389c24;
+  --ifm-color-success-darkest: #2e801d;
+  --ifm-color-success-light: #49c92e;
+  --ifm-color-success-lighter: #4dd033;
+  --ifm-color-success-lightest: #65d64e;
+  --ifm-color-danger: #fa3c3c;
+  --ifm-color-danger-dark: #f91e1e;
+  --ifm-color-danger-darker: #f90f0f;
+  --ifm-color-danger-darkest: #d40505;
+  --ifm-color-danger-light: #fb5a5a;
+  --ifm-color-danger-lighter: #fb6969;
+  --ifm-color-danger-lightest: #fc9797;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
