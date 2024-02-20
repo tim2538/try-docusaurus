@@ -54,10 +54,9 @@ const config: Config = {
       } satisfies Preset.Options
     ]
   ],
-
   themes: [
     [
-      // @See more details https://github.com/easyops-cn/docusaurus-search-local
+      // @See more details: https://github.com/easyops-cn/docusaurus-search-local
       require.resolve('@easyops-cn/docusaurus-search-local'),
       /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       {
@@ -70,7 +69,6 @@ const config: Config = {
       }
     ]
   ],
-
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -89,8 +87,8 @@ const config: Config = {
           label: 'Docs'
         },
         { to: '/pricing', label: 'Pricing', position: 'right' },
-        { to: '/about', label: 'About us', position: 'right' },
-        { to: '/blog', label: 'Blog', position: 'right' }
+        { to: '/blog', label: 'Blog', position: 'right' },
+        { to: '/about', label: 'About', position: 'right' }
       ]
     },
     footer: {

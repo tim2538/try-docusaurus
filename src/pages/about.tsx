@@ -1,5 +1,5 @@
+import { Button, Typography } from '@mui/material';
 import Layout from '@theme/Layout';
-import React from 'react';
 
 export default function About() {
   return (
@@ -7,7 +7,9 @@ export default function About() {
       title="About us"
       description="We hope everyone will work with smiles and happiness"
     >
-      <div className="container">About us</div>
+      <div className="container">
+        <Typography>About us</Typography>
+      </div>
     </Layout>
   );
 }
