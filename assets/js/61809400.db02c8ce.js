@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktry_docusaurus=self.webpackChunktry_docusaurus||[]).push([[6364],{6368:(e,s,u)=>{u.r(s),u.d(s,{default:()=>i});var r=u(9024),t=(u(1504),u(7624));function i(){return(0,t.jsx)(r.c,{title:"About us",description:"We hope everyone will work with smiles and happiness",children:(0,t.jsx)("div",{className:"container",children:"About us"})})}}}]);

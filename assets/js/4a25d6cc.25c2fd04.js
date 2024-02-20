@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktry_docusaurus=self.webpackChunktry_docusaurus||[]).push([[7016],{9941:(i,r,s)=>{s.r(r),s.d(r,{default:()=>u});var c=s(9024),e=(s(1504),s(7624));function u(){return(0,e.jsx)(c.c,{title:"Pricing",description:"Discover which plan is suitable for you",children:(0,e.jsx)("div",{className:"container",children:"Pricing"})})}}}]);

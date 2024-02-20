@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktry_docusaurus=self.webpackChunktry_docusaurus||[]).push([[4376],{7340:(e,r,s)=>{s.r(r),s.d(r,{default:()=>c});var i=s(9024),t=(s(1504),s(7624));function c(){return(0,t.jsx)(i.c,{title:"Services",description:"Let's make the engineering work go into a digital format",children:(0,t.jsx)("div",{className:"container",children:"Services"})})}}}]);
